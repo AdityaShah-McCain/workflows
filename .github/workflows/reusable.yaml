@@ -1,5 +1,5 @@
 name: Reusable Workflow
-# workflow_call is an event we use to call other workflows
+# workflow_call is an event we use to sp that we can call this wf from other wfs
 on:
   workflow_call:
     inputs:
