@@ -4,13 +4,13 @@ on:
   workflow_call:
     inputs:
       name:
-        description: 'Input description'
+        description: "Input description"
         type: string
-        default: 'Aditya'
+        default: "Aditya"
         required: false
     secrets:
       access-token:
-        description: 'Secret description'
+        description: "Secret description"
         required: true
 
 jobs:
